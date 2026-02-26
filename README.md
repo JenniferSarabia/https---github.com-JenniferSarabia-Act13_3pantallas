@@ -1,0 +1,7 @@
+#Urba y Flow
+
+#Jennifer Sarabia Nantos 6°J
+
+#Mi pront
+
+Estoy desarrollando una aplicación de tienda de ropa urbana llamada URBA Y FLOW en Flutter, la cual utiliza una paleta de colores basada en el azul principal #004691, un fondo general azul grisáceo suave #E1E9F8 y tipografías con pesos visuales fuertes como FontWeight.w900 para títulos de estilo callejero. La interfaz se caracteriza por un encabezado estándar de 80px de altura que integra un logo circular blanco con el icono Icons.storefront, un buscador dinámico dentro de un Container con opacidad 0.2 y bordes redondeados, y un área de perfil que muestra el saludo 'Hola invitado' junto al icono Icons.account_circle; este encabezado debe ser responsivo mediante el uso de Expanded y Flexible para evitar errores de overflow. La navegación entre pantallas utiliza Navigator.pop mediante un botón de regreso Icons.arrow_back_ios_new en el leading de las páginas secundarias, mientras que el contenido se organiza en tarjetas estilizadas: la Página 1 usa un Wrap de CollectionCard para mostrar colecciones de temporada con imágenes de alta calidad de streetwear (hoodies, cargos, sneakers) y la Página 2 emplea un ListView de OfferCard que utiliza Stack para superponer texto de promociones sobre imágenes con opacidad controlada. Todas las imágenes deben provenir de URLs de ropa urbana real con BoxFit.cover y el diseño debe adaptarse a diferentes anchos de pantalla mediante MediaQuery y restricciones de ancho máximo para garantizar una experiencia visual limpia y profesional.
